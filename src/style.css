@@ -21,6 +21,10 @@ body{
     flex-direction: column;
     align-items: center;
     height: 50rem;
+    background-image: url(./money.jpg);
+    background-size: cover;
+    background-position: center;
+    
 }
 
 main{
@@ -85,4 +89,5 @@ main h2{
 
 .botao:active{
     background-color: var(--color-07);
+    color: var(--color-05);
 }

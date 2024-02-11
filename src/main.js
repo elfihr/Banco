@@ -12,7 +12,8 @@ function convert(n){
     return Number(n.value.replace(',','.').replace('R$',''));
 }
 
-let saldo = 0
+let saldo = 100
+imprimir(saldo.toFixed(2))
 
 function reset(){
     inputMoney.value = ''
@@ -30,8 +31,7 @@ sacar.addEventListener('click', ()=>{
         console.log(typeof saldo)
         imprimir(saldo.toFixed(2))
     }
-    reset()
-        
+    reset()       
 })
 
 depositar.addEventListener('click', ()=>{
